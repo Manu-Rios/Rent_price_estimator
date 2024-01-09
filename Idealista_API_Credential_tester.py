@@ -10,7 +10,7 @@ import requests
 #Request to test the credentials
 
 #Credentials need to be encoded in base64-encoding, but that´s done automatically by the 'requests' library
-credentials = ("ty1dehiuqxmr33qvqdctkbzptzfalq9w","3VuvxaQszHn9") #API key & Secret
+credentials = ("API_KEY","API_SECRET") #API key & Secret
 
 url = "https://api.idealista.com/oauth/token"
 
